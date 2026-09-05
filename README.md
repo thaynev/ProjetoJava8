@@ -1,3 +1,4 @@
+![Build Status](https://github.com/thaynev/cafeteria-ejb-portfolio/actions/workflows/build.yml/badge.svg)0
 # ☕ Cafeteria EJB Architecture Comparison (Java 8 vs Java 17)
 
 Este repositório demonstra o domínio sobre componentes corporativos **EJB (Enterprise JavaBeans)**, comparando as duas principais eras do desenvolvimento corporativo em Java: o ambiente legado corporativo (*Java EE 8 / Java 8*) e o ecossistema moderno unificado (*Jakarta EE 10 / Java 17*).

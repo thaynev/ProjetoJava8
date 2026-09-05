@@ -1,0 +1,24 @@
+name: Build
+
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        modulo: [cafeteria-java8, cafeteria-jakarta17]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configurar JDK
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+      - name: Build com Maven
+        run: mvn -f ${{ matrix.modulo }}/pom.xml clean package0
+

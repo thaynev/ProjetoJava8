@@ -1,0 +1,5 @@
+com/cafeteria/api/RestApplication.class
+com/cafeteria/ejb/CarrinhoBean.class
+com/cafeteria/ejb/CardapioBean.class
+com/cafeteria/api/CafeteriaController.class
+com/cafeteria/ejb/PedidoBean.class
